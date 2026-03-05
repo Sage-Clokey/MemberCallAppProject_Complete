@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/phoneView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/emailView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/notesView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textSize="16sp"
+        android:paddingTop="10dp"/>
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/noteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Note"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"/>
+</LinearLayout>
